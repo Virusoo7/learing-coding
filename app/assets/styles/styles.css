@@ -1,17 +1,7 @@
-$mainBlue: #2f5572;
-body{
-	color: $mainBlue;
-	margin-top: 10px; 
-	columns: 300px 2;
-	.box{
-		a{
-			display: block;
-		}
-	}
-}
+@import "normalize.css";
+@import "base/_global";
+@import "base/_variables";
+@import "modules/_large-hero";
+@import "modules/_btn";
 
-.box {
-	a {
-		display: block;
-	}
-}
+
